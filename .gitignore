@@ -5,9 +5,20 @@
 node_modules/
 logs/
 canvas/
-workspace/*/node_modules/
 
-# 排除敏感凭证（只保留配置结构）
+# 排除图片和大文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.xlsx
+*.docx
+
+# 排除 Git 仓库
+.git/
+
+# 排除敏感凭证
 credentials/
 *.pem
 *.key
@@ -22,7 +33,3 @@ credentials/
 tmp/
 temp/
 .cache/
-
-# 排除 Nutstore 同步文件（如果在此目录）
-*.ld
-downloads/
