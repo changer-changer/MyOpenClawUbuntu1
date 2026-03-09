@@ -1,0 +1,28 @@
+# 排除大文件和敏感信息
+*.log
+*.jsonl
+*.sock
+node_modules/
+logs/
+canvas/
+workspace/*/node_modules/
+
+# 排除敏感凭证（只保留配置结构）
+credentials/
+*.pem
+*.key
+
+# 排除大模型文件和缓存
+*.bin
+*.gguf
+*.onnx
+*.pth
+
+# 排除临时文件
+tmp/
+temp/
+.cache/
+
+# 排除 Nutstore 同步文件（如果在此目录）
+*.ld
+downloads/
