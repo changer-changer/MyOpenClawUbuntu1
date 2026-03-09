@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.26",
-    "lastTouchedAt": "2026-03-09T11:18:33.624Z"
+    "lastTouchedAt": "2026-03-09T12:31:50.381Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-09T10:34:55.777Z",
+    "lastRunAt": "2026-03-09T12:13:18.397Z",
     "lastRunVersion": "2026.2.26",
-    "lastRunCommand": "onboard",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -74,6 +74,13 @@
         "workspace": "/home/cuizhixing/.openclaw/workspace-engineer-musk",
         "agentDir": "/home/cuizhixing/.openclaw/agents/engineer-musk/agent",
         "model": "kimi-coding/k2p5"
+      },
+      {
+        "id": "scientist",
+        "name": "scientist",
+        "workspace": "/home/cuizhixing/.openclaw/workspace-scientist",
+        "agentDir": "/home/cuizhixing/.openclaw/agents/scientist/agent",
+        "model": "kimi-coding/k2p5"
       }
     ]
   },
@@ -84,8 +91,39 @@
     ],
     "sessions": {
       "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "main",
+        "engineer-musk",
+        "scientist"
+      ]
     }
   },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "main"
+      }
+    },
+    {
+      "agentId": "engineer-musk",
+      "match": {
+        "channel": "telegram",
+        "accountId": "musk"
+      }
+    },
+    {
+      "agentId": "scientist",
+      "match": {
+        "channel": "telegram",
+        "accountId": "scientist"
+      }
+    }
+  ],
   "messages": {
     "ackReactionScope": "group-mentions"
   },
@@ -123,23 +161,43 @@
   "channels": {
     "telegram": {
       "enabled": true,
-      "dmPolicy": "allowlist",
-      "botToken": "<YOUR_TELEGRAM_BOT_TOKEN>",
-      "allowFrom": [
-        8434568597
-      ],
+      "dmPolicy": "pairing",
       "groupPolicy": "allowlist",
-      "streaming": "partial"
-    },
-    "telegram-musk": {
-      "enabled": true,
-      "dmPolicy": "allowlist",
-      "botToken": "<YOUR_TELEGRAM-MUSK_BOT_TOKEN>",
-      "allowFrom": [
-        8434568597
-      ],
-      "groupPolicy": "allowlist",
-      "streaming": "partial"
+      "streaming": "off",
+      "accounts": {
+        "main": {
+          "dmPolicy": "allowlist",
+          "botToken": "8341146080:AAHCnIFXnBPo9T9pt4uDluWhS0E4oC1tv2Y",
+          "allowFrom": [
+            8434568597
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "musk": {
+          "dmPolicy": "allowlist",
+          "botToken": "8655573543:AAEC6dKEUjfyiLTxCgreIgFZeYshdTr6muk",
+          "allowFrom": [
+            8434568597
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "default": {
+          "dmPolicy": "pairing",
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        },
+        "scientist": {
+          "dmPolicy": "allowlist",
+          "botToken": "8786815559:AAFxneAVHCjS-0h8eR6vGCqEZ8rne_4XTas",
+          "allowFrom": [
+            8434568597
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        }
+      }
     }
   },
   "gateway": {
@@ -161,13 +219,5 @@
         "enabled": true
       }
     }
-  },
-  "bindings": [
-    {
-      "agentId": "engineer-musk",
-      "match": {
-        "channel": "telegram-musk"
-      }
-    }
-  ]
+  }
 }

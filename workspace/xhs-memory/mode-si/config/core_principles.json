@@ -1,0 +1,18 @@
+{
+  "ip_name": "Model-Si",
+  "style_guide": {
+    "tone": "专业亲和",
+    "visual": "简洁高级，深色背景",
+    "emoji_usage": "适度，增强可读性"
+  },
+  "publishing_rules": {
+    "frequency": "每周3-5篇",
+    "best_time": "早8-9点，晚8-10点",
+    "hashtag_strategy": "3-5个精准标签"
+  },
+  "anti_ban": {
+    "human_typing": true,
+    "random_delays": true,
+    "no_bulk_actions": true
+  }
+}

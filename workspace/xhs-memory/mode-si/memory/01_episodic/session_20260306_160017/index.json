@@ -1,0 +1,29 @@
+{
+  "session_dir": "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017",
+  "timestamp": "20260306_160017",
+  "strategy": "search_grid_screencapture",
+  "keyword": "AI提示词",
+  "top_n_penetration": 2,
+  "grid_screenshots": [
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/search_AI%E6%8F%90%E7%A4%BA%E8%AF%8D_screen00.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/search_AI%E6%8F%90%E7%A4%BA%E8%AF%8D_screen01.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/search_AI%E6%8F%90%E7%A4%BA%E8%AF%8D_screen02.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/search_AI%E6%8F%90%E7%A4%BA%E8%AF%8D_screen03.png"
+  ],
+  "note_details": [
+    {
+      "note_index": 0,
+      "screenshots": [
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/note_00_carousel00.png",
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/note_00_text_comments.png"
+      ]
+    },
+    {
+      "note_index": 1,
+      "screenshots": [
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/note_01_carousel00.png",
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_160017/note_01_text_comments.png"
+      ]
+    }
+  ]
+}

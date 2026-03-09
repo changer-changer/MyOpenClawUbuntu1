@@ -1,0 +1,22 @@
+{
+  "session_dir": "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611",
+  "timestamp": "20260306_214611",
+  "strategy": "search_grid_screencapture",
+  "keyword": "赛博朋克书房",
+  "top_n_penetration": 1,
+  "grid_screenshots": [
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/search_%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E4%B9%A6%E6%88%BF_screen00.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/search_%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E4%B9%A6%E6%88%BF_screen01.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/search_%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E4%B9%A6%E6%88%BF_screen02.png",
+    "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/search_%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E4%B9%A6%E6%88%BF_screen03.png"
+  ],
+  "note_details": [
+    {
+      "note_index": 0,
+      "screenshots": [
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/note_00_carousel00.png",
+        "/media/cuizhixing/share/Myprojects/hongshu/xhs-autopilot/assets/memory/01_episodic/session_20260306_214611/note_00_text_comments.png"
+      ]
+    }
+  ]
+}

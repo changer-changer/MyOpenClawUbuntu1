@@ -1,0 +1,85 @@
+如何用AI一天完成一周的工作
+
+上周我用AI工具一天完成了平时一周的工作量。
+
+不是夸张，是真的。
+
+同事问我是不是偷偷加班了，
+其实我只是用对了方法。
+
+今天把完整流程分享给你 👇
+
+━━━━━━━━━━━━━━━
+
+🔥 核心逻辑：AI不是替代你，是放大你
+
+很多人用AI只是代替搜索，
+真正的高效用法是——
+让AI成为你的"外包团队"。
+
+我的一天工作流：
+
+🎯 上午：深度创作（2小时）
+• 用ChatGPT梳理思路框架
+• 用Claude撰写长文内容
+• 用Midjourney制作配图
+
+🎯 下午：协作沟通（3小时）
+• AI整理会议纪要（自动）
+• AI回复常规邮件（模板化）
+• 专注处理重要决策
+
+🎯 晚上：复盘规划（1小时）
+• Notion AI总结今日
+• AI规划明日优先级
+
+━━━━━━━━━━━━━━━
+
+💡 关键心法：
+
+1️⃣ 不要让AI帮你思考
+   让它帮你"执行"和"整理"
+
+2️⃣ 建立个人AI工作流
+   同样的Prompt反复用
+   效率会指数级提升
+
+3️⃣ 保留深度思考时间
+   AI省下的时间
+   用来做真正重要的事
+
+━━━━━━━━━━━━━━━
+
+📊 效果对比：
+
+以前一周：
+• 写2篇文章 ❌
+• 回复100+邮件 ❌
+• 开5个会 ❌
+• 疲惫不堪 ❌
+
+现在一天：
+• 写3篇文章 ✅
+• 邮件1小时处理完 ✅
+• 会议精简到2个 ✅
+• 还有时间学习 ✅
+
+不是工作变少了，
+是效率变高了。
+
+━━━━━━━━━━━━━━━
+
+🎁 福利：
+
+我把完整的AI工作流模板整理好了，
+包含：
+• 10个高效Prompt模板
+• 个人AI工具栈配置
+• 时间管理SOP
+
+想要的评论区扣"1" 👇
+
+---
+/home/cuizhixing/.openclaw/workspace/xhs-memory/mode-si/surveys/RESEARCH_ARCHIVE/20260307_ai_efficiency/cover.jpg
+/home/cuizhixing/.openclaw/workspace/xhs-memory/mode-si/surveys/RESEARCH_ARCHIVE/20260307_ai_efficiency/step1.jpg
+/home/cuizhixing/.openclaw/workspace/xhs-memory/mode-si/surveys/RESEARCH_ARCHIVE/20260307_ai_efficiency/step2.jpg
